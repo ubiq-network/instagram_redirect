@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+  <!-- redirect js -->
+  <script>
+    // パラメータを取得
+    const url = new URL(window.location.href);
+    const params = url.searchParams;
+    const param = params.get('code');
+    // リダイレクト
+    window.location.href = `https://ubiqworlddev.page.link/?link=https://dev.ubiq.site/upload_instagram?code%3D${param}&apn=com.ubiqworld.ubiq.dev&isi=6444285427&ibi=com.ubiqworld.app.dev`;
+  </script>
+
+</head>
+
+<body>
+</body>
+
+</html>
